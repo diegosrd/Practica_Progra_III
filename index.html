@@ -27,10 +27,44 @@
                 <li>Subir esto a mi GitHub con <code>git push</code>.</li>
             </ul>
         </section>
+
+        <section id="Formularios: la puerta de entrada de los datos"></section>
+            <h2>Formularios: la puerta de entrada de los datos</h2>
+            <h3>Ejemplos del apunte</h3>
+                <form action="/api/contacto" method="POST">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required placeholder="Ingresa tu email">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+                
+        <section id="Controles de selección y accesibilidad"></section>
+            <h2>Controles de selección y accesibilidad</h2>
+            <h3>Ejemplos del apunte</h3>
+            <h3>Radio: una sola opción</h3>
+            <!-- Radio: una sola opción -->
+                <fieldset>
+                    <legend>Color favorito</legend>
+                    <label><input type="radio" name="color" value="rojo"> Rojo</label>
+                    <label><input type="radio" name="color" value="azul"> Azul</label>
+                </fieldset>
+            <h3>Select: menú desplegable</h3>
+                <label for="talle">Talle</label>
+                <select id="talle" name="talle">
+                    <option value="">-- Seleccioná --</option>
+                    <option value="s">Small</option>
+                    <option value="m">Medium</option>
+                    <option value="l">Large</option>
+                </select>
+            
+        </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 - Creado por [Tu Nombre]</p>
+        <p>&copy; 2026 - Creado por Diego Ruiz Diaz</p>
     </footer>
 
 </body>
